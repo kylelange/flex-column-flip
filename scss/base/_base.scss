@@ -114,25 +114,40 @@ main {
     .tile1 {
       background-color: seagreen;
       margin: 10px 0;
-      width: 30%;
-      height: 150px;
+      width: 100%;
+      height: 200px;
     }
   }
   .article {
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
     width: 30%;
+    .tile2 {
+      margin: 10px 0;
+      width: 100%;
+      height: 200px;
+    }
   }
   .aside-container {
     display: flex;
     flex-direction: column;
     width: 30%;
     margin: 10px 0;
-    .small-img {
-      background-color: lighten(seagreen, 30%);
-      width: 30px;
-      height: 30px
+    .tile3 {
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0;
+      width: 100%;
+      height: 200px;
+      .small-img {
+        background-color: lighten(seagreen, 30%);
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+      }
+      .aside-text {
+        width: 75%;
+      }
     }
   }
 }
