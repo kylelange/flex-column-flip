@@ -37,9 +37,16 @@ body {
   background-color: darkslategrey;
 }
 
-h1,h2,p {
+h1,h2 {
   font-family: 'Playfair Display', 'Gill Sans', sans-serif;
   font-size: 2em;
+  color: white;
+}
+
+p {
+  font-family: 'Playfair Display', 'Gill Sans', sans-serif;
+  font-size: 1em;
+  color: white;
 }
 
 //Class Selectors
@@ -73,6 +80,30 @@ h1,h2,p {
   }
 }
 
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  .main-text {
+    width: 35%;
+    height: auto;
+    align-self: center;
+    text-align: justify;
+    p {
+      margin-top: 20px;
+    }
+  }
+  .main-photo {
+    margin-top: 20px;
+    background-color: darken(seagreen, 20%);
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+  }
+}
+
+//ID selectors
+
 #hero-text {
   width: 75%;
   margin: 0 auto;
@@ -81,5 +112,3 @@ h1,h2,p {
   background-color: seagreen;
   text-align: center;
 }
-
-//ID selectors

@@ -39,9 +39,15 @@ time, mark, audio, video {
 body {
   background-color: darkslategrey; }
 
-h1, h2, p {
+h1, h2 {
   font-family: 'Playfair Display', 'Gill Sans', sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+  color: white; }
+
+p {
+  font-family: 'Playfair Display', 'Gill Sans', sans-serif;
+  font-size: 1em;
+  color: white; }
 
 .nav {
   display: flex;
@@ -65,6 +71,24 @@ h1, h2, p {
       font-size: 1.2em;
       margin: 5px;
       padding: 10px; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  main .main-text {
+    width: 35%;
+    height: auto;
+    align-self: center;
+    text-align: justify; }
+    main .main-text p {
+      margin-top: 20px; }
+  main .main-photo {
+    margin-top: 20px;
+    background-color: #153e27;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%; }
 
 #hero-text {
   width: 75%;
