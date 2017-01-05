@@ -1,14 +1,19 @@
-# _App Name_
+# _Column Flip Template_
 
-#### _{A responsive site + short desc.}, {Jan 1, 2017}_
+#### _{A responsive site using flexbox ONLY.}, {Jan 4, 2017}_
 
 #### By _**Kyle Lange**_
 
-![screenshot](Screen Shot.png)
+### See it [live here.](http://codepen.io/kylelange/pen/BpyWKb)
 
+![screenshot](Screenshot1.png)
+![screenshot](Screenshot2.png)
+![screenshot](Screenshot3.png)
+![screenshot](Screenshot4.png)
 
 ## Description:
 
+This pen is a FLEXBOX ONLY template for a site with an image/icon column flip.  Content is also hidden/rearranged at different screen sizes.  It was created without a gird and can be used for all web needs.
 
 ## Setup/Installation Requirements
 
@@ -28,14 +33,6 @@
 
            _sudo gem install sass_
 
-   Then:
-
-         _gem install bourbon && gem install neat_
-
-   Finally:
-
-         _bourbon install && neat install_
-
  5. Watch your Sass project/ make changes with:
 
          _sass --watch scss:css_
@@ -52,8 +49,7 @@ For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)
 ## Technologies Used
 
 * HTML5
-* CSS3 with Sass, Bourbon and Neat
-* JavaScript with jQuery 3.1
+* CSS3 with SCSS
 
 ### License
 
